@@ -1,4 +1,12 @@
-# OpenShiftDeploy
+# OpenShift RBAC
+
+OpenShift security is built on four pillars:
+
+1.  Users – who is accessing the cluster
+2.  Groups – logical collections of users
+3.  Roles – what actions are allowed
+4.  RoleBindings – who gets which role
+5.  Resource controls – quotas, limits, SCCs, etc.
 
 ## Check Resourcetype that a ClusterRole can apply in OpenShift
 oc api-resources --verbs=list --namespaced=false
