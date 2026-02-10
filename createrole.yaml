@@ -1,7 +1,7 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
-  namespace: your-namespace  # Replace with your desired namespace
+  namespace: testopenshift  # Replace with your desired namespace
   name: testadminrole
 rules:
   - apiGroups: 
